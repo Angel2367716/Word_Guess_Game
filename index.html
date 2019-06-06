@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,19 +8,39 @@
     <title>Hangout Game</title>
     <!--Bootsrap CDN-->
     <!--Latest compilled and minified CSS-->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
+
 <body>
     <div class="container">
-        
+
         <div class="jumbotron">
-            <h1>Hello, world!</h1>
-            <p >contents...</p>
-            <p>
-                 <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-            </p>
-           
-          </div>
+            <h1>Hangman Game</h1>
+            <p>Guess the word!</p>
+        </div>
+        <div class="card">
+            <div class="card-heading">
+                <h3 class="card-title">Word to Guess</h3>
+            </div>
+            <div class="card-body">
+                <h2>_ _ _ _ _ _ _ </h2>
+            </div>
+
+        </div>
+        <div class="card">
+            <div class="card-body">Wrong Guesses: <span id="wrongGuesses"></span>a</div>
+        </div>
+        <div class="card">
+            <div class="card-body">Guesses Left:<span id="numGuesses"></span>b</div>
+        </div>
+        <div class="card">
+            <div class="card-body">Win Counter: <span id="winCounter"></span>c</div>
+        </div>
+        <div class="card">
+            <div class="card-body">Loss Counter: <span id="lossCounter"></span>d</div>
+        </div>
     </div>
 </body>
+
 </html>
