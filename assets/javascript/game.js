@@ -29,6 +29,12 @@ function startGame () {
         blankAndSuccesses.push ("_");
     }
 
+    //Change HTML to reflect round conditions 
+    document.getElementById("wordToGuess").innerHTML = blankAndSuccesses.join (" ");
+    document.getElementById("numGuesses").innerHTML = guessesLeft;
+    document.getElementById("winCounter").innerHTML = winCount;
+    document.getElementById("lossCounter").innerHTML = lossCount;
+
     //Testing/Debuging
     console.log (selectedWord);
     console.log (lettersInWord);
