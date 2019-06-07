@@ -17,7 +17,7 @@ let guessesLeft = 9;
 //------------------------------------------------------------
 function startGame () {
     selectedWord = wordOptions[Math.floor(Math.random() * wordOptions.length)]
-    lettersInWord = selectedWord.split(" ");
+    lettersInWord = selectedWord.split("");
     numBlanks = lettersInWord.length;
     //Reset - each round of the game this will reset the variables
     guessesLeft = 9;
@@ -44,4 +44,12 @@ function startGame () {
 
 //MAIN PROCESS
 //------------------------------------------------------------
+//Initiates the code for the first time 
 startGame ();
+
+//Register key clicks
+//document.onkeyup = function(event) {
+  //  letter;
+//}
+
+//stoped at 15:11 https://www.youtube.com/watch?v=cgdmOR15cn4&feature=youtu.be
