@@ -111,5 +111,3 @@ document.onkeyup = function (event) {
     //Testing/debugging
     console.log(letterGuessed);
 }
-
-//stoped at 15:11 https://www.youtube.com/watch?v=cgdmOR15cn4&feature=youtu.be
