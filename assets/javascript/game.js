@@ -5,7 +5,7 @@ const wordOptions = ["riddikulus", "obliviate", "sectumsempra", "alohomora", "ex
 let selectedWord = " ";
 let lettersInWord = [];
 let numBlanks = 0;
-let blankAndSuccesses = []; //j _ _ _ _ _ _ 
+let blankAndSuccesses = []; // _ _ _ _ _ _ 
 let wrongLetters = [];
 
 //Game counters
